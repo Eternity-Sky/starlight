@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Welcome to Eternity-Sky
-date: 2020-09-29 23:18 +0800
-last_modified_at: 2020-10-01 01:08:25 +0800
-tags: [jekyll theme, jekyll, tutorial]
+title: Hydro
+date: 2025-03-08 15:01 +0800
+last_modified_at: 2025-03-08 15:01 +0800
+tags: [hydro]
 toc:  true
 ---
-# Hydro
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/hydro-dev/hydro/build.yml?branch=master)
 ![hydrooj](https://img.shields.io/npm/dm/hydrooj)
