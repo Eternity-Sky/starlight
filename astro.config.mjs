@@ -15,7 +15,10 @@ export default defineConfig({
 					label: 'ETOJ Docs',
 					autogenerate: { directory: 'ETOJ_DOCS' },
 				},
-
+			        {
+					label: '信息学奥赛一本通C++版例题代码',
+					autogenerate: { directory: 'ybt' },
+				},
 			],
 		}),
 	],

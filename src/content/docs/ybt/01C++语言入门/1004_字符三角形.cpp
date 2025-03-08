@@ -1,0 +1,20 @@
+---
+layout: post
+title: 1004_字符三角形
+date: 2025-03-08 15:01 +0800
+last_modified_at: 2025-03-08 15:01 +0800
+tags: [hydro]
+toc:  true
+---
+#include <iostream>
+#include <cstdio>
+using namespace std;
+int main()
+{
+	char c;
+	cin>>c;
+	printf("  %c\n",c);
+	printf(" %c%c%c\n",c,c,c);
+	printf("%c%c%c%c%c",c,c,c,c,c); 
+	return 0;
+}

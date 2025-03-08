@@ -1,0 +1,17 @@
+---
+layout: post
+title: 2062_电影票
+date: 2025-03-08 15:01 +0800
+last_modified_at: 2025-03-08 15:01 +0800
+tags: [hydro]
+toc:  true
+---
+#include <iostream>
+#include <cstdio>
+using namespace std;
+int main(){
+	int x;
+	cin>>x;
+	cout<<x<<" "<<x*10;
+	return 0;
+}

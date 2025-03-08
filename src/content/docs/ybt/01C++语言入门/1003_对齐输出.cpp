@@ -1,0 +1,18 @@
+---
+layout: post
+title: 1003_对齐输出
+date: 2025-03-08 15:01 +0800
+last_modified_at: 2025-03-08 15:01 +0800
+tags: [hydro]
+toc:  true
+---
+#include <iostream>
+#include <cstdio>
+using namespace std;
+int main()
+{
+	int a,b,c;
+	cin>>a>>b>>c;
+	printf("%8d %8d %8d",a,b,c);
+	return 0;
+}
