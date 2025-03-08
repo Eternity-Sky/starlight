@@ -1,7 +1,19 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+// astro.config.mjs
+import starlight from '@astrojs/starlight'
+import { defineConfig } from 'astro/config'
+import starlightSiteGraph from 'starlight-site-graph'
 
+export default defineConfig({
+    integrations: [
+        starlight({ 
+            plugins: [starlightSiteGraph({ ... })],
+            title: 'My Docs',
+        }),
+    ],
+})
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
