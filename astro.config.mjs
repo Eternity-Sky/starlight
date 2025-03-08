@@ -12,10 +12,6 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'ET的博客',
-					autogenerate: { directory: 'Blog' },
-				},
-				{
 					label: 'ETOJ Docs',
 					autogenerate: { directory: 'ETOJ_DOCS' },
 				},
