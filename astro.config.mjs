@@ -6,6 +6,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'ETOJ Docs',
+               		customCss: [
+              			'./src/styles/cus.css',
+      			],
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
