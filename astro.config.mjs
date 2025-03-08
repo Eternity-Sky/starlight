@@ -15,6 +15,10 @@ export default defineConfig({
 					label: 'ET的博客',
 					autogenerate: { directory: 'Blog' },
 				},
+				{
+					label: 'ETOJ Docs',
+					autogenerate: { directory: 'ETOJ DOCS' },
+				},
 
 			],
 		}),
