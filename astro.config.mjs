@@ -17,7 +17,7 @@ export default defineConfig({
 				},
 				{
 					label: 'ETOJ Docs',
-					autogenerate: { directory: 'ETOJ DOCS' },
+					autogenerate: { directory: 'ETOJ_DOCS' },
 				},
 
 			],
