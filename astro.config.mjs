@@ -7,10 +7,10 @@ export default defineConfig({
 		starlight({
 			title: 'ETOJ Docs',
                		customCss: [
-              			'./src/styles/cus.css',
+              			'./src/styles/concsss.css',
       			],
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/CB-X2-Jun/starlight-1',
 			},
 			
 			sidebar: [
